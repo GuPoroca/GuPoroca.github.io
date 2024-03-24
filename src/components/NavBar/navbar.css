@@ -2,7 +2,7 @@
     height: 5rem;
     width: 100%;
     margin: 0 auto;
-    padding: 1rem 2rem;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 .desktopMenuListItem{
-    margin: 1rem;
+    margin: 0.6rem;
     cursor: pointer;
     
 }
@@ -37,12 +37,12 @@
     border-bottom: 3px solid #3ECFD3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .navbar{
     height: 5rem;
     width: 100vw;
     margin: auto;
-    padding: 1rem 13.5rem;
+
     display: flex;
     align-items: center;
     justify-content: center;

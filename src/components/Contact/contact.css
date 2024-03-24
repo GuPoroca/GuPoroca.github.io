@@ -41,9 +41,9 @@
     margin-bottom: 1rem; /* Adiciona espaço entre a imagem e o texto */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     #contatos{
         width: 100vw;
-        margin-left: 6%;
+        margin-left: 3%;
     }
 }

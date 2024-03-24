@@ -44,9 +44,9 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     #intro{
         width: 100vw;
-        margin-left: 6%;
+        margin-left: 3%;
     }
 }

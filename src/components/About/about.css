@@ -55,10 +55,10 @@
     font-weight: 200;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     #about{
         width: 100vw;
-        margin-left: 6%;
+        margin-left: 3%;
     }
     .skillBars {
         max-width: 100vw;
