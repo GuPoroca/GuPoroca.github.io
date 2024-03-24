@@ -1,0 +1,32 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(34,31,31);
+}
+
+.logo{
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 3rem;
+}
+
+.desktopMenuListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+    color: #3ECFD3;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #3ECFD3;
+}
