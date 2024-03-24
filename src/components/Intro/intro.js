@@ -9,7 +9,9 @@ const Intro = () => {
                 <span className="Ola">Olá, </span>
                 <span className="int">Eu sou <span className="nome">Gustavo Poroca</span> <br /> Engenheiro da Computação</span>
                 <p className="desc">Sou um estudante de computação com experiência em diversas áreas e uma grande vontade de aprender e resolver problemas.</p>
-                <Link><button className="btn">Entre em contato</button></Link>
+                <button className="btn" onClick={()=>{
+                    document.getElementById('contatos').scrollIntoView({behavior: 'smooth'});
+                }}>Entre em contato</button>
             </div>
         </section>
     );

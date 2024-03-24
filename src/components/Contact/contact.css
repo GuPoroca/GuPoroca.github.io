@@ -1,0 +1,49 @@
+#contatos{
+    overflow: hidden;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contatosTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.contatosDesc{
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+.contatosTabs{
+    margin: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contatoImg {
+    margin: 3.5rem;
+    border-radius: 1.2rem;
+    object-fit: cover;
+    height: 12rem;
+    width: 12rem;
+    margin-bottom: 1rem; /* Adiciona espaço entre a imagem e o texto */
+}
+
+@media (max-width: 768px) {
+    #contatos{
+        width: 100vw;
+        margin-left: 6%;
+    }
+}
