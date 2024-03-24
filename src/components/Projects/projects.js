@@ -19,7 +19,7 @@ const Projects = () => {
                     <img src ={ESP} alt= "ESP" className="projetoImg"></img>
                 </a>
                         <div className="projetoText">
-                            <h2>Sensor Acelerômetro Giroscópio</h2>
+                            <h2>Sensor Acelerômetro e Giroscópio</h2>
                             <p>Criei um sensor de Acelerômetro e Giroscópio com ESP32 e MPU6050, oferecendo armazenamento de dados, simulação de movimento via servidor web e interface de preferências do usuário.</p>
                         </div>
                 </div>
