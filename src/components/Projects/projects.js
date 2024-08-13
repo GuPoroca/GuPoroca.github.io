@@ -4,6 +4,7 @@ import ESP from '../../assets/arduino.png';
 import Nobel from '../../assets/NBl.jpg';
 import Fourier from '../../assets/Frequencia.png';
 import Port from '../../assets/Portifolio.png';
+import PSO from '../../assets/img_pso.png'
 
 
 const Projects = () => {
@@ -33,6 +34,16 @@ const Projects = () => {
                         <div className="projetoText">
                             <h2>Aplicativo Nobel Prize Winners</h2>
                             <p>Aplicativo para categorizar e acessar dados e curiosidades sobre o Prêmio Nobel, feito em React Native com um grupo de amigos.</p>
+                        </div>
+                </div>
+
+                <div className="projetosTab1">
+                <a href="https://colab.research.google.com/drive/16B8Q4Jj7XV5DKMetgz5xG3AXkwUNU309#scrollTo=-RykqR-_y8bi" target="_blank">
+                    <img src ={PSO} alt= "PSO" className="projetoImg"></img>
+                </a>
+                        <div className="projetoText">
+                            <h2>Aplicação de PSO para resolver PQA</h2>
+                            <p>Notebook desenvolvido do zero para resolver problema de alocação quadrática utilizando Particle Swarm Optmization (IA).</p>
                         </div>
                 </div>
                 
